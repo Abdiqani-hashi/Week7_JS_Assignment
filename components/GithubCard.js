@@ -1,3 +1,4 @@
+//Get URL
 function fetchGitHubData(username) {
   return axios
     .get(`https://api.github.com/users/${username}`)
